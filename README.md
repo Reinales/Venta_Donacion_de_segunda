@@ -13,6 +13,17 @@ La idea es brindar apoyo a personas que necesitan estos objetos y, al mismo tiem
 
 ***Este es un proyecto del Módulo "Énfasis Profesional I (Integración Continua)"***
 
+## Requisistos para poder arrancar el proyecto
+- Ubuntu/Linux
+- Python3 
+- Django 3.2.12
+
+## Como iniciar el proyecto
+
+Dirigete a el folder <code>Venta_Donacion_de_segunda/django_proyect</code> y ejecuta el siguiente comando <code>sudo python3 manage.py runserver</code>
+
+Luego dirigirse al navegador web de tu preferencia y abrir el home: "http://127.0.0.1:8000/hola"
+
 ## Integrantes: 
 
 - Abraham Enrique Cañon Vasquez cdbenitez@poligran.edu.co
