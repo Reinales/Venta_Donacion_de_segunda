@@ -17,12 +17,22 @@ La idea es brindar apoyo a personas que necesitan estos objetos y, al mismo tiem
 - Ubuntu/Linux
 - Python3 
 - Django 3.2.12
+- WSL **(https://reinales.notion.site/HOW-TO-INSTALL-WSL-by-Cristian-Reinales-f3f840a230ad4cf4a7fe4a2137aadf7c?pvs=4)**
+- Docker **(https://docs.docker.com/desktop/wsl/)**
 
 ## Como iniciar el proyecto
 
-Dirigete a el folder <code>Venta_Donacion_de_segunda/django_proyect</code> y ejecuta el siguiente comando <code>sudo python3 manage.py runserver</code>
+Dirigete a el folder <code>Venta_Donacion_de_segunda/django_proyect</code> y ejecuta el siguiente comando <code>python3 manage.py runserver</code>
 
 Luego dirigirse al navegador web de tu preferencia y abrir el home: "http://127.0.0.1:8000/hola"
+
+## Docker 
+
+Para usar los contenedores de Docker, usa los siguientes comandos, y porfavor tener instalado Docker Desktop
+
+<code> docker-compose build  # Construir las imágenes de los contenedores </code>
+<br>
+<code> docker-compose up     # Iniciar los contenedores </code>
 
 ## Integrantes: 
 

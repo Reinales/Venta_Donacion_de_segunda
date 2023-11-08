@@ -76,9 +76,25 @@ WSGI_APPLICATION = 'django_proyect.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': 'mydb',
+        'USER': 'USUARIO',
+        #{email}: USUARIO@USUARIO.com
+        'PASSWORD': 'C0nTraSeNNa123',
+        'HOST': 'db',
+        'PORT': '5432',
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'mydb',
+#         'USER': 'myuser',
+#         'PASSWORD': 'mypassword',
+#         'HOST': 'db',
+#         'PORT': '5432',
+#     }
+# }
 
 
 # Password validation
