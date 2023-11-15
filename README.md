@@ -36,7 +36,7 @@ Para usar los contenedores de Docker, usa los siguientes comandos, y porfavor te
 
 ## Integrantes: 
 
-- Abraham Enrique Cañon Vasquez cdbenitez@poligran.edu.co
+- Abraham Enrique Cañon Vasquez aecanon@poligran.edu.co
 - Cristian Daniel Benitez Cuervo cdbenitez@poligran.edu.co
 - Cristian David Guillermo Reinales Cardenas crreinales@poligran.edu.co
 
