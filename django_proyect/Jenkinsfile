@@ -1,0 +1,19 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('preparacion') {
+            steps {
+                git branch: "${BRANCH_NAME}",credentialsId: 'Cdbenitez', url: 'https://github.com/Reinales/Venta_Donacion_de_segunda/'
+                bat 'pip install fastapi'
+                bat 'pip install "unicorn[standard]"'
+                bat 'pip install -r requirements.txt'
+            }
+        }
+        stage('Generar Imagenes de Docker'){
+            steps{
+                bat 'docker build -t Venta_Donacion_de_segunda'
+            }
+        }
+    }
+}
