@@ -8,7 +8,7 @@ pipeline {
                 bat 'pip install fastapi'
                 bat 'pip install "unicorn[standard]"'
                 bat 'pip install -r requirements.txt'
-            }
+            } 
         }
         stage('Generar Imagenes de Docker'){
             steps{
